@@ -1,3 +1,37 @@
 This matlab toolbox is built on top of O. Rockinger's original toolbox.
 Many functions have been localised to benefit from structural components 
 of the source image. 
+
+Feel free to use and distribute the code provided that the description in the .m functions is intact. Please refer to O. Rockinger’s papers and the papers listed below if you are using in your research. More details are documented in the matlab function.
+
+[1] Hossny, M.; Nahavandi, S.; Creighton, D.; Bhatti, A, "Image fusion performance
+metric based on mutual information and entropy driven quadtree decomposition," 
+Electronics Letters, vol.46, no.18, pp.1266,1268, 2010. 
+(doi: 10.1049/el.2010.1778)
+
+[2] Hossny, M.; Nahavandi, S.; Creighton, D., "Comments on 'Information measure 
+for performance of image fusion'," Electronics Letters , vol.44, no.18, 
+pp. 1066-1067, 2008. (doi: 10.1049/el:20081754)
+
+[3] Hossny, M.; Nahavandi, S., "Measuring the capacity of image fusion," Image 
+Processing Theory, Tools and Applications (IPTA), IEEE International
+Conference on, pp. 415-420, 2012. (doi:10.1109/IPTA.2012.6469548)
+
+[4] Hossny, M.; Nahavandi, S.; Creighton, D., "An Evaluation Mechanism for Saliency 
+Functions Used in Localized Image Fusion Quality Metrics," Computer Modelling and 
+Simulation, International Conference on, pp. 407-415, 2012 (doi: 10.1109/UKSim.2012.63)
+
+[5] Hossny, M.; Nahavandi, S.; Creighton, D., "Zero and infinity images in multi-scale
+image fusion," Image Processing (ICIP), IEEE International Conference on, pp. 2181-2184,
+2009. (doi: 10.1109/ICIP.2009.5413827)
+
+[6] Hossny, M.; Nahavandi, S.; Creighton, D.; Bhatti, A; Hassan, M., "Image Fusion Metrics: 
+Evolution in a Nutshell," Computer Modelling and Simulation, International Conference on, 
+pp. 443-450, 2013. (doi: 10.1109/UKSim.2013.72)
+
+[7] Hossny, M.; Nahavandi, S., "Image fusion algorithms and metrics duality index," Image
+Processing (ICIP), 2009 16th IEEE International Conference on , vol., no., pp.2193,2196, 2009.
+(doi: 10.1109/ICIP.2009.5413850)
+
+[8] Hossny, M.; Nahavandi, S. & Creighton, D., "Feature-Based Image Fusion Quality Metrics,"
+Lecture Notes on Computer Science, 5314, 469-478, 2008.
