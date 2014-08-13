@@ -1,1 +1,3 @@
-THIS IS My 1ST README FILE!!!!
+This matlab toolbox is built on top of O. Rockinger's original toolbox.
+Many functions have been localised to benefit from structural components 
+of the source image. 

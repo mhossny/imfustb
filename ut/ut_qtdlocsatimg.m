@@ -11,7 +11,7 @@ function infty=ut_qtdlocsatimg(a, md)
 % for performance of image fusion'," Electronics Letters , vol.44, no.18, 
 % pp.1066,1067, August 28 2008 (doi: 10.1049/el:20081754)
 % 
-% Hossny, M.; Nahavandi, S., "Measuring the capacity of image fusion," Image 
+% [3] Hossny, M.; Nahavandi, S., "Measuring the capacity of image fusion," Image 
 % Processing Theory, Tools and Applications (IPTA), IEEE International
 % Conference on , pp.415-420, 2012. (doi:10.1109/IPTA.2012.6469548)
 
