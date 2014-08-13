@@ -1,4 +1,4 @@
-function Y = fuse_dwb(M1, M2, zt, ap, mp)
+function Y = fa_dwb(M1, M2, zt, ap, mp)
 %Y = fuse_dwb(M1, M2, zt, ap, mp) image fusion with DWT, Wavelet is DBSS(2,2)
 %
 %    M1 - input image A

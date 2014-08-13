@@ -1,4 +1,4 @@
-function Y = fuse_rat(M1, M2, zt, ap, mp)
+function Y = fa_rat(M1, M2, zt, ap, mp)
 %Y = fuse_rat(M1, M2, zt, ap, mp) image fusion with ratio pyramid
 %
 %    M1 - input image A

@@ -1,4 +1,4 @@
-function Y = fuse_sih(M1, M2, zt, ap, mp)
+function Y = fa_sih(M1, M2, zt, ap, mp)
 %Y = fuse_sih(M1, M2, zt, ap, mp) image fusion with SIDWT, Wavelet is Haar
 %
 %    M1 - input image A

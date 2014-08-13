@@ -1,4 +1,4 @@
-function Y = fuse_gra(M1, M2, zt, ap, mp)
+function Y = fa_gra(M1, M2, zt, ap, mp)
 %Y = fuse_gra(M1, M2, zt, ap, mp) image fusion with gradient pyramid
 %
 %    M1 - input image #1

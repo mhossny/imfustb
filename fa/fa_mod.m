@@ -1,4 +1,4 @@
-function Y = fuse_mod(M1, M2, zt, ap, mp)
+function Y = fa_mod(M1, M2, zt, ap, mp)
 %Y = fuse_lap(M1, M2, zt, ap, mp) image fusion with morphological difference pyramid
 %
 %    M1 - input image A

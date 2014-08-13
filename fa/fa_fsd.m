@@ -1,4 +1,4 @@
-function Y = fuse_fsd(M1, M2, zt, ap, mp)
+function Y = fa_fsd(M1, M2, zt, ap, mp)
 %Y = fuse_fsd(M1, M2, zt, ap, mp) image fusion with fsd pyramid
 %
 %    M1 - input image A

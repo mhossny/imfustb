@@ -1,4 +1,4 @@
-function Y = fuse_con(M1, M2, zt, ap, mp)
+function Y = fa_con(M1, M2, zt, ap, mp)
 %Y = fuse_con(M1, M2, zt, ap, mp) image fusion with contrast pyramid
 %
 %    M1 - input image A
