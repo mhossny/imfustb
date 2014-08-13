@@ -114,7 +114,7 @@ err_a=err;
 
 % decomposing b
 
-entropythreshold=ent_a;
+entropythreshold=ent_b;
 im=b;
 q=qtdecomp(im, @ut_qtentropy, entropythreshold, [mindim, maxdim]);
 
