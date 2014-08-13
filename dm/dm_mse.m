@@ -1,4 +1,5 @@
 function qdiff=dm_mse(x, y, w, sigma)
+% the classic mean square error (MSE) but mapped
 
 if size(x, 3)>1 x=rgb2gray(x); end
 if size(y, 3)>1 y=rgb2gray(y); end

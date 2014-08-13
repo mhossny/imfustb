@@ -1,5 +1,21 @@
-function [err, errmap, err_a, errmap_a, err_b, errmap_b]=dm_qtdmutinf2(a, b, md)
+function [err, errmap, err_a, errmap_a, err_b, errmap_b]=dm_qtdmutinfEx(a, b, md)
+% Localised quadtree mutual information metric as modified by Hossny et al. in
+% 
+% Hossny, M.; Nahavandi, S.; Creighton, D.; Bhatti, A, "Image fusion performance
+% metric based on mutual information and entropy driven quadtree decomposition," 
+% Electronics Letters , vol.46, no.18, pp.1266,1268, September 2010
+% doi: 10.1049/el.2010.1778
+% 
+% The MI is normalised by max entropy.
+% 
+% The MI is normalised by avergaing marginal entropies as explained by Hossny et al. in 
+% 
+% Hossny, M.; Nahavandi, S.; Creighton, D., "Comments on 'Information measure 
+% for performance of image fusion'," Electronics Letters , vol.44, no.18, 
+% pp.1066,1067, August 28 2008 (doi: 10.1049/el:20081754)
 
+
+% init 
 % ent_a=ut_entropy(a);
 % ent_b=ut_entropy(b);
 % 
@@ -13,7 +29,7 @@ entropythreshold=min(ent_a, ent_b);
 %[qa, ba, da]=ut_qtd(a, entropythreshold, 0);
 %[qb, bb, db]=ut_qtd(b, entropythreshold, 0);
 
-%% decomposiing
+% decomposiing a
 
 entropythreshold=ent_a;
 mindim=md;%2;
@@ -96,7 +112,7 @@ errmap_a=errmap;
 err_a=err;
 
 
-%% decomposing b
+% decomposing b
 
 entropythreshold=ent_a;
 im=b;

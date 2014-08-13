@@ -1,4 +1,8 @@
 function e=dm_mutinf(a, b)
+% Normalised mutual information metric as modified by Hossny et al. in
+% Hossny, M.; Nahavandi, S.; Creighton, D., "Comments on 'Information measure 
+% for performance of image fusion'," Electronics Letters , vol.44, no.18, 
+% pp.1066,1067, August 28 2008 (doi: 10.1049/el:20081754)
 
 a=double(a);
 b=double(b);

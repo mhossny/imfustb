@@ -1,4 +1,6 @@
 function e=dm_centropy(a, b)
+% Cross-Entrop was used in couple of papers but it is not commutative and
+% dose not qualify to be a metric!! 
 
 a=double(a);
 b=double(b);

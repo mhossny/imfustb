@@ -1,4 +1,8 @@
-function qdiff=dm_entropy(x, y, w, sigma)
+function qdiff=dm_gra(x, y, w, sigma)
+% This is completely wrong now!! I have no idea where the entropy came
+% from. This file must have been mixed up with another file!! 
+% 
+% P.S. sigma is not used at the moment
 
 if size(x, 3)>1 x=rgb2gray(x); end
 if size(y, 3)>1 y=rgb2gray(y); end

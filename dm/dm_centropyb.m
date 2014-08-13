@@ -1,4 +1,8 @@
-function [b_map, d_map]=dm_centropy(a, b, w)
+function [b_map, d_map]=dm_centropyb(a, b, w)
+% [b_map, d_map]=dm_centropyb(a, b, [m, n])
+% This is a localisation of the cross entropy. It is optimised to benefit
+% from block processing. Produces a dissimilarity map. Cross-entropy is not
+% commutative and should not be used as a metric.
 
 ws=ut_itknl(w);
 

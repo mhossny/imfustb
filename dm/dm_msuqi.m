@@ -1,4 +1,6 @@
 function qdiff=dm_msuqi(x, y, w, sigma, nlevels)
+% Multiscale universal quality index by Wang and Bovik. It applies UQI/SSIM
+% on multiresolution anlaysed images (Typically in pyramids data structure). 
 
 if size(x, 3)>1 x=rgb2gray(x); end
 if size(y, 3)>1 y=rgb2gray(y); end

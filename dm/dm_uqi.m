@@ -1,4 +1,5 @@
 function qdiff=dm_uqi(x, y, w, sigma)
+% Basic universal quality index by Wang and Bovik.
 
 if size(x, 3)>1 x=rgb2gray(x); end
 if size(y, 3)>1 y=rgb2gray(y); end

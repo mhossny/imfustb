@@ -1,4 +1,5 @@
 function [b_map, d_map]=dm_QE(A, B, siz)
+% siz is not used at the moment
 
 A=double(A);
 B=double(B);

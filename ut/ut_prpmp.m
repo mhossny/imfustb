@@ -1,4 +1,5 @@
-function [new_b_map, new_d_map]=preparemap(a_map, mp, siz)
+function [new_b_map, new_d_map]=ut_prpmp(a_map, mp, siz)
+% Prepares a coloured dissimilarity bitmap using jet colour map for display
 
 if nargin<2
     mp=jet(256);

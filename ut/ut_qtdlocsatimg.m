@@ -1,4 +1,19 @@
-function infty=dm_qtdlocsatimg(a, md)
+function infty=ut_qtdlocsatimg(a, md)
+% This function calculates saturated subimages based on the quadtree map.
+% If you are using it please refer to our work in [1-3].
+% 
+% [1] Hossny, M.; Nahavandi, S.; Creighton, D.; Bhatti, A, "Image fusion performance
+% metric based on mutual information and entropy driven quadtree decomposition," 
+% Electronics Letters , vol.46, no.18, pp.1266,1268, September 2010
+% doi: 10.1049/el.2010.1778
+% 
+% [2] Hossny, M.; Nahavandi, S.; Creighton, D., "Comments on 'Information measure 
+% for performance of image fusion'," Electronics Letters , vol.44, no.18, 
+% pp.1066,1067, August 28 2008 (doi: 10.1049/el:20081754)
+% 
+% Hossny, M.; Nahavandi, S., "Measuring the capacity of image fusion," Image 
+% Processing Theory, Tools and Applications (IPTA), IEEE International
+% Conference on , pp.415-420, 2012. (doi:10.1109/IPTA.2012.6469548)
 
 %ent_a=ut_entropy(a)
 
@@ -16,8 +31,8 @@ entropythreshold=ent_a
 
 %[q_a, b_a, d_a]=ut_qtd(a, entropythreshold, 30);
 
-mindim=2;%2;
-maxdim=16;%min(size(a, 1))/2;
+mindim=16;%2;
+maxdim=size(a, 1)/2;%min(size(a, 1))/2;
 
 im=a;
 

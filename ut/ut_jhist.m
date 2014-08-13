@@ -23,6 +23,8 @@ tmph=zeros(G, G);
 ha=hist(a, 0:G-1); if(na<2) ha=ha'; end;
 hb=hist(b, 0:G-1); if(na<2) hb=hb'; end;
 
+ph=ha.*hb;
+
 for i=1:na
 
     Ga=0:G-1;

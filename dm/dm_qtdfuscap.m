@@ -1,4 +1,9 @@
 function [err, errmap]=dm_qtdfuscap(a, b, md)
+% Localised fusion capacity measrue using mutual information with an
+% infinity image (8bits entropied white noise)
+% 
+% TODO: This function still needs som eserioes work.
+
 
 %ent_a=ut_entropy(a)
 %ent_b=ut_entropy(b)
